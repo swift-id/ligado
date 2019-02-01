@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4AE63D93220428D500E96241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63D92220428D500E96241 /* AppDelegate.swift */; };
-		4AE63D95220428D500E96241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63D94220428D500E96241 /* ViewController.swift */; };
 		4AE63D98220428D500E96241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE63D96220428D500E96241 /* Main.storyboard */; };
 		4AE63D9A220428D600E96241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE63D99220428D600E96241 /* Assets.xcassets */; };
 		4AE63D9D220428D600E96241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE63D9B220428D600E96241 /* LaunchScreen.storyboard */; };
+		4AE63DA52204290D00E96241 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63DA42204290D00E96241 /* TableViewController.swift */; };
+		4AE63DA722042A3300E96241 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63DA622042A3300E96241 /* CelulaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AE63D8F220428D500E96241 /* Custom Table Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Table Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE63D92220428D500E96241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AE63D94220428D500E96241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AE63D97220428D500E96241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AE63D99220428D600E96241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE63D9C220428D600E96241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE63D9E220428D600E96241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE63DA42204290D00E96241 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4AE63DA622042A3300E96241 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4AE63D92220428D500E96241 /* AppDelegate.swift */,
-				4AE63D94220428D500E96241 /* ViewController.swift */,
 				4AE63D96220428D500E96241 /* Main.storyboard */,
+				4AE63DA622042A3300E96241 /* CelulaTableViewCell.swift */,
 				4AE63D99220428D600E96241 /* Assets.xcassets */,
 				4AE63D9B220428D600E96241 /* LaunchScreen.storyboard */,
 				4AE63D9E220428D600E96241 /* Info.plist */,
+				4AE63DA42204290D00E96241 /* TableViewController.swift */,
 			);
 			path = "Custom Table Cell";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE63D95220428D500E96241 /* ViewController.swift in Sources */,
 				4AE63D93220428D500E96241 /* AppDelegate.swift in Sources */,
+				4AE63DA722042A3300E96241 /* CelulaTableViewCell.swift in Sources */,
+				4AE63DA52204290D00E96241 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NULCBGY98;
 				INFOPLIST_FILE = "Custom Table Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NULCBGY98;
 				INFOPLIST_FILE = "Custom Table Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
